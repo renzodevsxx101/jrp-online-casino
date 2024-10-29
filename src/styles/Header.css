@@ -1,0 +1,92 @@
+.header-container {
+  width: 100%;
+  background-color: #26292B;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 999;
+}
+
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.menu-button {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.logo-container {
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 20px;
+  width: auto;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.wallet-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.wallet-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+.balance {
+  color: #1890FF;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: #5f7adb;
+  margin: 0 4px;
+}
+
+.profile-button {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.profile-icon {
+  width: 24px;
+  height: 24px;
+}
