@@ -11,7 +11,6 @@ import newIcon from '../assets/images/new.svg';
 import newText from '../assets/images/new-text.svg';
 import jackpot from '../assets/images/jackpot.svg';
 import jackpotText from '../assets/images/jackpot-text.svg';
-import line from '../assets/images/line.svg';
 import Games from './GameList';
 
 
